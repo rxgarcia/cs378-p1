@@ -27,16 +27,30 @@
           <p class="header subheader">The fresh choice of UT!</p>
       </div>
       <div class="row" id="itemCard">
-        <div class="col">
+        <div class="col-4">
           <img src="https://bakeitwithlove.com/wp-content/uploads/2022/04/microwave-mac-and-cheese-sq.jpg" alt="mac & cheese" class="foodImg"></img>
         </div>
-        <div class="col-6" id="container">
-          <div class="row" id="title">Mac & Cheese</div>
-          <div class="row" id="button"><button class="orderButton">order</button></div>
-        </div>
-        <div class="col" id="container">
-          <div class="price">
-            $5
+        <div class="col-8" id="contentContainer">
+          <div class="row">
+            <div class="col-8" id="container">
+              <div class="row" id="title">Mac & Cheese</div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="price">
+                  $5
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="counterContainer">
+            <div class="buttonContainer">
+              <button class="subtract"></button>
+            </div>
+            <span class="count">0</span>
+            <div class="buttonContainer">
+              <button class="add"></button>
+            </div>
           </div>
         </div>
       </div>
@@ -44,13 +58,27 @@
         <div class="col">
           <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/02/05/Baked-Feta-Pasta-4_s4x3.jpg.rend.hgtvcom.616.493.suffix/1615916524567.jpeg" alt="pasta" class="foodImg"></img>
         </div>
-        <div class="col-6" id="container">
-          <div class="row" id="title">Pasta</div>
-          <div class="row" id="button"><button class="orderButton">order</button></div>
-        </div>
-        <div class="col" id="container">
-          <div class="price">
-            $8
+        <div class="col-8" id="contentContainer">
+          <div class="row">
+            <div class="col-8" id="container">
+              <div class="row" id="title">Pasta</div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="price">
+                  $8
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="counterContainer">
+            <div class="buttonContainer">
+              <button class="subtract"></button>
+            </div>
+            <span class="count">0</span>
+            <div class="buttonContainer">
+              <button class="add"></button>
+            </div>
           </div>
         </div>
       </div>
@@ -58,13 +86,27 @@
         <div class="col">
           <img src="https://cdn.vox-cdn.com/thumbor/vtePZhT08vI05_EhGqBh_HTNPY4=/0x0:4032x2268/1200x675/filters:focal(1694x812:2338x1456)/cdn.vox-cdn.com/uploads/chorus_image/image/71275266/Cuantos4.0.jpg" alt="tacos" class="foodImg"></img>
         </div>
-        <div class="col-6" id="container">
-          <div class="row" id="title">Tacos</div>
-          <div class="row" id="button"><button class="orderButton">order</button></div>
-        </div>
-        <div class="col" id="container">
-          <div class="price">
-            $8
+        <div class="col-8" id="contentContainer">
+          <div class="row">
+            <div class="col-8" id="container">
+              <div class="row" id="title">Tacos</div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="price">
+                  $8
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row" id="counterContainer">
+            <div class="buttonContainer">
+              <button class="subtract"></button>
+            </div>
+            <span class="count">0</span>
+            <div class="buttonContainer">
+              <button class="add"></button>
+            </div>
           </div>
         </div>
       </div>
@@ -72,16 +114,42 @@
         <div class="col">
           <img src="https://www.moms-mexican-recipes.com/wp-content/uploads/2017/08/Red-Chile-Enchiladas-Recipe.jpg" alt="enchiladas" class="foodImg"></img>
         </div>
-        <div class="col-6" id="container">
-          <div class="row" id="title">Enchiladas</div>
-          <div class="row" id="button"><button class="orderButton">order</button></div>
-        </div>
-        <div class="col" id="container">
-          <div class="price">
-            $10
+        <div class="col-8" id="contentContainer">
+          <div class="row">
+            <div class="col-8" id="container">
+              <div class="row" id="title">Enchiladas</div>
+            </div>
+            <div class="col-4">
+              <div class="row">
+                <div class="price">
+                  $10
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="row" id="counterContainer">
+            <div class="buttonContainer">
+              <button class="subtract"></button>
+            </div>
+            <span class="count">0</span>
+            <div class="buttonContainer">
+              <button class="add"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5">
+          <span class="total">Subtotal $0</span>
+        </div>
+        <div class="col" id="cartButton">
+          <button class="orderButton" id = "orderButton">Order</button>
+        </div>
+        <div class="col"  id="cartButton">
+          <button class="orderButton" id = "clearButton">Clear All</button>
         </div>
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

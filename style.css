@@ -10,12 +10,11 @@ body {
 
 .orderButton {
   border-radius: 13px;
-  font-family: Arial, Helvetica, sans-serif; 
   background-color: rgb(231, 231, 255);
   border: 2px solid rgb(159, 183, 255);
   text-align: center;
-  text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 400;
   /* transition-duration: 0.4s; */
 }
 
@@ -26,7 +25,7 @@ body {
 
 .price {
   display: flex;
-  justify-content: center;
+  justify-content: end;
 }
 
 #title {
@@ -36,9 +35,10 @@ body {
   font-size: 18px;
 }
 
-#button {
-  position: absolute;
-  bottom: 0;
+#cartButton {
+  display: flex;
+  justify-content: end;
+  font-size: 12px;
 }
 
 #container {
@@ -78,4 +78,50 @@ body {
 
 #itemCard {
   margin-bottom: 10%;
+}
+
+#counterContainer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 32px;
+}
+
+.subtract {
+  background: url('https://cdn2.iconfinder.com/data/icons/250-perfect-vector-pictograms/48/9.2-512.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 17px;
+  border: none;
+}
+
+.add {
+  background: url('https://cdn-icons-png.flaticon.com/512/992/992651.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 17px;
+  border: none;
+}
+
+.count {
+  width: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+#contentContainer {
+  /* justify-content: space-between; */
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  max-width: 20px;
+}
+
+.total {
+  font-size: 20px;
+  font-weight: 300;
 }
