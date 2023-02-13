@@ -30,7 +30,7 @@ function onOrder() {
     for (let item in cart) {
         alertString += cart[item] + " " + item + "\n";
     }
-    alertString += "For a total of: " + subtotal;
+    alertString += "For a total of: $" + subtotal;
     console.log(alertString);
     alert(alertString);
 }
