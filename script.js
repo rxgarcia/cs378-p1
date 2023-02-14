@@ -75,6 +75,7 @@ function subItem(event) {
 
     if (itemName in cart && cart[itemName] > 0) {
         cart[itemName] -= 1;
+        delete cart[itemName];
         subtotal -= itemCost;
         let itemCount = event.srcElement.parentElement.parentElement.parentElement.children[1].children[1];
         itemCount.innerText = parseInt(itemCount.innerText) - 1;
